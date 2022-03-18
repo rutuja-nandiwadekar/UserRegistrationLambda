@@ -1,7 +1,12 @@
+/*
+ *Code to validate User Entry ( First Name, Last Name, Email, Mobile, and Password) 
+ *using Lambda Function 
+ */
 package com.bridgelabz;
 
 import java.util.regex.Pattern;
 
+//Functional interface
 interface Validation {
 	public String validate(String regex, String userDetails);
 }
